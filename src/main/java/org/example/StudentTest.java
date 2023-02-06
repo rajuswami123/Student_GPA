@@ -53,15 +53,15 @@ public class StudentTest {
         int b=1;
         while(a>=1) {
 
-            ou.info(""+("Enter the student_"+b+" details :"));
+            ou.info("Enter the student_"+b+" details :");
 
 
-            ou.info(""+"Student_"+b+" Name : ");
+            ou.info("Student_"+b+" Name : ");
 
             name=in.next();
-            ou.info(""+name+" Age : ");
+            ou.info(name+" Age : ");
             age=in.nextInt();
-            ou.info(""+name+" GPA : ");
+            ou.info(name+" GPA : ");
             gpa=in.nextDouble();
             b++;
             a--;
