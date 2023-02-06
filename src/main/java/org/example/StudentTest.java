@@ -52,16 +52,21 @@ public class StudentTest {
         List <Student> students=new ArrayList<>();
         int b=1;
         while(a>=1) {
+String s1="Enter the student_"+b+" details :";
+String s2="Student_"+b+" Name : ";
 
-            ou.info("Enter the student_"+b+" details :");
+
+            ou.info(s1);
 
 
-            ou.info("Student_"+b+" Name : ");
+            ou.info(s2);
 
             name=in.next();
-            ou.info(name+" Age : ");
+            String s3=name+" Age : ";
+            ou.info(s3);
             age=in.nextInt();
-            ou.info(name+" GPA : ");
+            String s4=name+" GPA : "
+            ou.info(s4);
             gpa=in.nextDouble();
             b++;
             a--;
