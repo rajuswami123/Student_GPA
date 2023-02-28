@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class Student_gpa {
+public class StudentGpa {
     public static void main(String[] args) {
 
             Logger ou = Logger.getLogger("com.api.jar");
