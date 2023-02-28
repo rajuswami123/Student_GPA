@@ -1,6 +1,5 @@
 package org.example;
-import java.util.*;
-import java.util.logging.Logger;
+
 class Student{
     private String name;
     private int age;
